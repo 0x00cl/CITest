@@ -6,8 +6,7 @@ steps:
   image: gcc
   commands:
   - make
-
-steps:
+  
 - name: test
   image: gcc
   commands:
