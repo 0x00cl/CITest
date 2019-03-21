@@ -2,8 +2,13 @@ kind: pipeline
 name: default
 
 steps:
-- name: test
+- name: compile
   image: gcc
   commands:
   - make
+
+steps:
+- name: test
+  image: gcc
+  commands:
   - ./citest
