@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'make'
+        sh 'ls'
       }
     }
     stage('succ') {
       steps {
-        sh 'echo \'success\''
+        sh 'make'
       }
     }
   }
