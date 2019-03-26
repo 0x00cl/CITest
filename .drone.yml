@@ -2,7 +2,8 @@ kind: pipeline
 name: default
 
 steps:
-- name: weww
+- name: test
   image: gcc
   commands:
   - make
+  - echo 'Hello'
