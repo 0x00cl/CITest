@@ -6,8 +6,8 @@ steps:
   image: gcc
   commands:
   - make
-    when:
-      branch:
-      - master
-      event:
-      - push
+  when:
+    branch:
+    - master
+    event:
+    - push
