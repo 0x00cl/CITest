@@ -7,7 +7,7 @@ steps:
   commands:
   - make
     when:
-    branch:
-    - master
-    event:
-    - push
+      branch:
+      - master
+      event:
+      - push
