@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 
 steps:
-- name: wew
+- name: weww
   image: gcc
   commands:
   - make
