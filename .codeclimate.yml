@@ -32,4 +32,4 @@ checks:
       threshold: # language-specific defaults. an override will affect all languages
 plugins:
   cppcheck:
-    enabled:true
+    enabled: true
