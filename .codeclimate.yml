@@ -1,0 +1,10 @@
+engines:
+  cppcheck:
+    emnabled:true
+    config:
+      check: all
+      language: c
+      stds:
+        - c11
+      platform: unix64
+      inconclusive:false
