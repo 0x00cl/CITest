@@ -8,4 +8,3 @@ plugins:
       stds:
         - c11
       platform: unix64
-      includes: src/citest.c
