@@ -13,4 +13,4 @@ steps:
   - echo 'wwew'
   when:
     event:
-      push
+      - promote
