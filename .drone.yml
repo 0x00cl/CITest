@@ -11,4 +11,6 @@ steps:
   image: alpine
   commands:
   - echo 'wwew'
-  when: manual
+  when:
+    event:
+      push
