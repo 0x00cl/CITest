@@ -7,3 +7,8 @@ steps:
   commands:
   - make
   - echo 'Hello'
+- name: wew
+  image: alpine
+  commands:
+  - echo 'wwew'
+  when: manual
