@@ -4,7 +4,7 @@ int hello(){
   return 12;
 }
 
-int hello(){
+int hello2(){
   return 12;
 }
 
