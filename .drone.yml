@@ -14,4 +14,4 @@ steps:
 - name: test2
   image: codeclimate/codeclimate
   commands:
-  - analyze
+  - codeclimate analyze
