@@ -11,7 +11,7 @@ steps:
   image: ubuntu:latest
   commands:
   - apt-get update
-  - apt-get install curl tar make -Y
+  - apt-get -y install curl tar make
   - curl -L https://github.com/codeclimate/codeclimate/archive/master.tar.gz | tar xvz
   - cd codeclimate-* && make install
   - codeclimate help
