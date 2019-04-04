@@ -8,7 +8,7 @@ steps:
   - make
   - echo 'Hello'
 - name: test2
-  image: alpine
+  image: ubuntu:latest
   commands:
   - apt-get update
   - apt-get install curl tar make
