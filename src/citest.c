@@ -8,6 +8,16 @@ int hello2(){
   return 12;
 }
 
+
+
+int hello3(){
+
+  return 12;
+
+}
+
+
+
 int main(){
   printf("Hello world!\n");
 }
